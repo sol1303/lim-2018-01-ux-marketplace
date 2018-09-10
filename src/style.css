@@ -1,6 +1,6 @@
 * *{
-    font-family: 'Anton', sans-serif;
-     
+    font-family: 'Exo 2', sans-serif;
+    font-size: 14px; 
   }
   body{
     min-height: 100vh;
@@ -8,22 +8,61 @@
 .logo {
   font-family: 'Exo', sans-serif;
 }
-.init{
-padding-block-end: 0%;
+h4{
+  font-family: 'Raleway', sans-serif;
+}
+.slides{
+  
+  margin-bottom: 0px;
+  margin-top: 7px;
+}
+.parallax-container{
+  margin-top: 0; 
 }
 .navbar{
   height: 100px;
  
 }
+.sectionCarta , .sectionServices{
+  margin-right: 0px; 
+}
+
+.row{
+  margin-bottom: 0px;
+  margin-right:  0px;
+}
 .title{
 text-align: center;
 margin-top: 7px;
 }
-.map{
-height: 100px;
+
+.platos{
+  margin-top: 0px;
+}
+.mensage{
+  margin-top: 10px;
 }
 
-/* .imgM{
+.imgM{
   height: 200px;
-  width: 100px;
+  width: 200px;
+}
+
+/* @media max-width
 } */
+
+.checkbox{
+ border-style: solid 3px #000000;
+ 
+}
+
+/* header, main, footer {
+  padding-left: 300px;
+}
+ */
+@media only screen and (max-width : 600px) {
+  body{
+    font-size-adjust: inherit;
+  }
+}
+      
